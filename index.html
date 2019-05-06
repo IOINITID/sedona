@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link rel="icon" href="img/icon-sedona.png">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link href="css/normalize.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="one">
+      <header class="main-header">
+        <nav class="main-navigation" aria-label="Раздел навигации по сайту">
+          <ul class="site-navigation">
+            <li> <a class="info" href="#">Информация</a> </li>
+            <li class="offset"> <a class="media" href="#">Фото и видео</a> </li>
+            <li> <a class="map" href="#">Карта штата</a> </li>
+            <li> <a class="hotel-list" href="hotels.html">Гостиницы</a> </li>
+          </ul>
+        </nav>
+        <div class="header-logo"> <a class="main-header-logo"><img src="img/logo.svg" width="140" height="71" alt="Логотип сайта Седона"></a> </div>
+      </header>
+      <section class="main-intro" aria-label="О городе Седона">
+        <p><img src="img/wellcome-photo.png" width="459" height="353" alt="Добро пожаловать в Седону!"></p>
+        <div class="main-intro-text">
+          <h1 class="main-intro-one">Седона — небольшой городок в Аризоне, заслуживающий большего! </h1>
+          <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        </div>
+      </section>
+    </div>
+    <main class="main">
+      <section class="main-features" aria-label="Главные особенности городка Седона">
+        <ul class="features-list">
+          <li class="feature-item-one">
+            <div class="real-town-img">
+              <div class="real-town">
+                <h2 class="feature-item-one">Настоящий городок</h2> <span class="feature-item-one">— №1 —</span>
+                <p class="feature-item-one">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              </div> <img src="img/town-photo.jpg" width="800" height="256" alt="Фото городка Седона">
+            </div>
+            <ul class="features-list-under">
+              <li class="feature-item-one-two">
+                <h3>Жильё</h3>
+                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              </li>
+              <li class="feature-item-one-three">
+                <h3>Еда</h3>
+                <p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
+              </li>
+              <li class="feature-item-one-four">
+                <h3>Сувениры</h3>
+                <p>Не только китайского, но и местного производства!</p>
+              </li>
+            </ul>
+          </li>
+          <li class="feature-item-two">
+            <div class="devil-text">
+              <h2>Там есть мост дьявола</h2> <span>— №2 —</span>
+              <p>Да, по нему можно пройти! Если конечно Вы осмелитесь</p>
+            </div> <img src="img/devil-bridge-photo.jpg" width="800" height="256" alt="Фото моста дьявола">
+          </li>
+          <li class="feature-other">
+            <div class="feature-item-three-one">
+              <h2>Небольшая площадь</h2><span>— №3 —</span>
+              <p>Все достопримечательности находятся очень близко</p>
+            </div>
+            <div class="feature-item-three-two">
+              <h2>Красивая дорога</h2><span>— №4 —</span>
+              <p>Ехать в седону из Лас-Вегаса совсем не скучно!</p>
+            </div>
+            <div class="feature-item-three-three">
+              <h2>Мало туристов</h2><span>— №5 —</span>
+              <p>Большинство едет в Гранд каньон и толпится там</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="main-hotels" aria-label="Забронировать гостиницу">
+        <h2>Заинтересовались?</h2>
+        <p>Укажите предполагаемые даты поездки,<br> и мы покажем Вам лучшие предложения гостиниц в Седоне </p> <a class="open-modal-button" href="form.html">Поиск гостиницы в Седоне</a>
+      </section>
+      <div class="map-background" aria-label="Карта местонахождения городка Седона"> <iframe class="interactive-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d838158.7456372598!2d-112.35548651517362!3d34.85477998807123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1535268159592" width="1200" height="593" style="border: 0" allowfullscreen></iframe> </div>
+    </main>
+    <footer class="footer" aria-label="Ссылки на социальные сети и другая информация">
+      <div class="footer-info" aria-label="Ищите нас по хэштегу visitsedona"> #visitsedona </div>
+      <div class="footer-social">
+        <ul class="footer-social-list">
+          <li class="footer-social-twitter" aria-label="Мы в Twitter"> <a href="#"></a> </li>
+          <li class="footer-social-facebook" aria-label="Мы в Facebook"> <a href="#"></a> </li>
+          <li class="footer-social-youtube" aria-label="Мы в Youtube"> <a href="#"></a> </li>
+        </ul>
+      </div>
+      <div class="footer-copyright" aria-label="Сайт сделан в Html Academy"> <span>website by</span> <a href="https://htmlacademy.ru/intensive/htmlcss"></a> </div>
+    </footer>
+    <section class="search-form" aria-label="Окно заказа гостиницы">
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p><label class="date-in" for="date-in-field">Дата заезда:<span class="icon-cal-one"></span></label><input class="date-in-input" type="text" name="date-in-field" id="date-in-field" placeholder="24 Апреля 2017"></p>
+        <p><label class="date-out" for="date-out-field">Дата выезда:<span class="icon-cal-two"></span></label> <input class="date-out-input" type="text" name="date-out-field" id="date-out-field" placeholder="4 Июля 2017"></p>
+        <p><label class="people" for="people-field">Взрослые:</label> <a class="people-value-minus">−</a> <input class="people-form" type="text" name="value-of-people" id="people-field" placeholder="2" size="10"> <a class="people-value-plus">+</a> <label class="child-field" for="child-field">Дети:</label><a class="child-value-minus">−</a> <input class="child-form" type="text" name="value-of-child" id="child-field" placeholder="0" size="10"> <a class="child-value-plus">+</a> </p> <button class="search-button-field" type="submit" name="search-button-field" value="search-button">Найти</button>
+      </form>
+    </section>
+  </div>
+  <script src="js/script.min.js"> </script>
+</body>
+
+</html>
