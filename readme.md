@@ -9,4 +9,4 @@
 ------------
 
 Сделано с ❤️ в [WEB-ELITIT.RU](https://www.web-elitit.ru "Web-elitit.ru")
-> Дизайн сайта: HTML Academy: Седона
+> Дизайн сайта: **HTML Academy: Седона**
